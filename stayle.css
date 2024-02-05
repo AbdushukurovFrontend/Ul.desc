@@ -39,10 +39,19 @@ span{
     padding: 40px;
     align-items: center;
 }
-.header h1{
+.header h1 a{
+    color: black;
+    text-decoration: none;
     font-size: 28px;
     font-weight: 500;
-
+    cursor: pointer;
+}
+.stl-ul a{
+    text-decoration: none;
+    color: black;
+}
+.stl-ul a:hover{
+    color: rgb(60, 255, 0);
 }
 .stl-ul li{
     list-style: none;
@@ -62,6 +71,7 @@ span{
 .icon-bottom i{
 color: yellowgreen;
 transform: scale(1.1);
+cursor: pointer;
 }
 .section{
    padding-top: 100px;
@@ -103,6 +113,7 @@ color: rgb(56, 55, 55);
         transform: scale(1.1);
         background-image: url(/green-leaves-vector-1191967-removebg-preview.png);
         transition: 0.2s;
+        cursor: pointer;
 }
 .section img{
     border-radius: 115px;
@@ -139,6 +150,7 @@ transform: rotate(-5.00deg);
 }
 .section-flex:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 .section-flex h3{
     padding: 10px;
@@ -179,7 +191,7 @@ transform: rotate(-5.00deg);
     justify-content: center;
     align-items: center;
     padding-top: 50px;
-    gap: 50px;
+    gap: 150px;
 }
 .about-text{
     width:350px;
@@ -204,6 +216,7 @@ transform: rotate(-5.00deg);
 }
 .about-img:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 .img-bloc{
     display: flex;
@@ -213,6 +226,7 @@ transform: rotate(-5.00deg);
 }
 .img-bloc img:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 .img{
     margin-top: 90px;
@@ -220,6 +234,7 @@ transform: rotate(-5.00deg);
 }
 .img:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 
@@ -229,6 +244,10 @@ transform: rotate(-5.00deg);
     align-items: center;
     padding-top: 50px;
     gap: 100px;
+}
+.stil-fresh img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .fresh-text{
@@ -247,17 +266,15 @@ transform: rotate(-5.00deg);
     padding-top: 20px;
     font-style: italic;
 }
-.fresh-img{
+.fresh img{
     align-items: center;
     display: flex;
     gap: 20px;
 }
-.fresh-img:hover{
+.fresh-img img:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
-
-
-
 
 
 .coced{
@@ -291,7 +308,215 @@ transform: rotate(-5.00deg);
 }
 .coced-img:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
+
+
+
+.produktis{
+    padding: 70px 0px;
+    text-align: center;
+}
+.produktis h2{
+    font-size: 45px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+.produktis p{
+    color: rgb(56, 55, 55);
+    font-family: 'Josefin Slab', serif;
+     font-size: 27px;
+     font-weight: 750;
+}
+
+.card{
+    width: 270px;
+    text-align: center;
+    padding: 0px 10px 10px;
+    transition: 0.2s;
+}
+.card img:hover{
+transform: scale(1.1);
+}
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card h3{
+    padding: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.produktis-card{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.card p{
+    font-size: 16px;
+    line-height: 18px;
+    padding: 10px;
+    font-style: italic;
+    font-family: 'Josefin Slab', serif;
+}
+
+
+
+.button-hover1{
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+    margin-top: 45px;
+    width: 150px;
+    height: 45px;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(180.00deg, rgb(100, 187, 71),rgb(44, 149, 83) 100%);
+    transition: 0.2s;
+    margin-left: 550px;
+}
+
+
+.button-hover1:hover{
+    transform: scale(1.1);
+    background-image: url(/green-leaves-vector-1191967-removebg-preview.png);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.stl-heppy{
+    padding-top: 110px;
+}
+.stl-heppy h2{
+text-align: center;
+font-size: 44px;
+font-weight: 370;
+}
+
+.img-card{
+    display: flex;
+    align-items: center;
+}
+.img-card img{
+cursor: pointer;
+}
+.img-card img:hover{
+    transform: scale(1.1);
+}
+.l{
+    margin-left: 20px;
+}
+.l h3{
+    font-size: 16px;
+}
+.p{
+    padding: 5px 0px;
+    font-size: 12px;
+}
+.heppy-card{
+    width:385px;
+height: 347px;
+align-items: center;
+
+}
+.card-p{
+    font-size: 18px;
+font-weight: 350;
+line-height: 28px;
+font-style: italic;
+font-family: 'Josefin Slab', serif;
+margin-top: 40px
+}
+.flex{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.help-icon{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: -40px;
+}
+.help-icon :first-child{
+    font-size: 40px;
+    color: gray;
+}
+
+.help-icon i{
+    font-size: 40px;
+    color: rgb(54, 156, 80);
+}
+.help-icon i:hover{
+    transform: scale(1.1);
+}
+.stl-form{
+    text-align: center;
+    padding-top: 80px;
+}
+.stl-form h4{
+    font-size: 26px;
+font-weight: 470;
+}
+.stl-form p{
+    font-size: 20px;
+    font-style: italic;
+font-family: 'Josefin Slab', serif;
+margin-top: 10px;
+}
+.input{
+    margin-top: 30px;
+    align-items: center;
+}
+.input input{
+    text-align: left;
+padding: 10px;
+width: 300px;
+height: 50px;
+border-radius: 165px;
+background: rgb(255, 255, 255);
+border: none;
+}
+.stl-foter{
+    background: rgb(252, 252, 252);
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.ul{
+    width: 230px;
+}
+.ul li{
+    list-style: none;
+    margin-top: 10px;
+    font-style: italic;
+    font-family: 'Josefin Slab', serif;
+   margin-left: 30px;
+}
+.ul h2{
+    margin-left: 30px;
+}
+.ul1
+{
+    text-align: left;
+    width: 150px;
+}
+.ul1 p{
+    margin-top: 40px;
+    font-style: italic;
+    font-family: 'Josefin Slab', serif;
+}
+.ul p{
+margin-top: 40px;
+font-style: italic;
+font-family: 'Josefin Slab', serif;
+}
+
+
 
 
 
