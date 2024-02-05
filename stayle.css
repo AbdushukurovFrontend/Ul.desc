@@ -4,6 +4,14 @@
     box-sizing: border-box;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+.flex{
+    display: inline-block;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 .stil-bottom{
     width: 130px;
@@ -79,7 +87,7 @@ line-height: 70px;
     font-weight: 100;
 color: rgb(56, 55, 55);
 }
-.text button{
+.button-hover{
     border: none;
     border-radius: 30px;
     font-size: 17px;
@@ -89,9 +97,12 @@ color: rgb(56, 55, 55);
     padding: 10px;
     color: white;
     background: linear-gradient(180.00deg, rgb(100, 187, 71),rgb(44, 149, 83) 100%);
+    transition: 0.2s;
 }
-.text button:hover{
+.button-hover:hover{
         transform: scale(1.1);
+        background-image: url(/green-leaves-vector-1191967-removebg-preview.png);
+        transition: 0.2s;
 }
 .section img{
     border-radius: 115px;
@@ -103,3 +114,186 @@ transform: rotate(-5.00deg);
     background-image: url(./bg\ elements.png);
     background-repeat: no-repeat;
 }
+.hover{
+    padding: 70px 0px;
+    text-align: center;
+}
+.hover h2{
+    font-size: 45px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+.header p{
+    color: rgb(56, 55, 55);
+    font-family: 'Josefin Slab', serif;
+     font-size: 27px;
+     font-weight: 750;
+}
+
+.section-flex{
+    width: 270px;
+    text-align: center;
+    padding: 0px 10px 10px;
+    transition: 0.2s;
+}
+.section-flex:hover{
+    transform: scale(1.1);
+}
+.section-flex h3{
+    padding: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.nest-flex{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.section-flex p{
+    font-size: 16px;
+    line-height: 18px;
+    padding: 10px;
+    font-style: italic;
+    font-family: 'Josefin Slab', serif;
+}
+.best{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    gap: 130px;
+}
+
+.number p{
+    font-family: 'Josefin Slab', serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: italic;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 50px;
+}
+.about-text{
+    width:350px;
+}
+.about-text h2{
+    text-align: left;
+    font-size: 54px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.about-text p{
+    font-size: 18px;
+    font-family: 'Josefin Slab', serif;
+    line-height: 32px;
+    padding-top: 20px;
+    font-style: italic;
+}
+.about-img{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.about-img:hover{
+    transform: scale(1.1);
+}
+.img-bloc{
+    display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: 0.2s;
+}
+.img-bloc img:hover{
+    transform: scale(1.1);
+}
+.img{
+    margin-top: 90px;
+    transition: 0.2s;
+}
+.img:hover{
+    transform: scale(1.1);
+}
+
+
+.stil-fresh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 100px;
+}
+
+.fresh-text{
+    width:460px;
+}
+.fresh-text h2{
+    text-align: left;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.fresh-text p{
+    font-size: 18px;
+    font-family: 'Josefin Slab', serif;
+    line-height: 32px;
+    padding-top: 20px;
+    font-style: italic;
+}
+.fresh-img{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.fresh-img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+.coced{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 100px;
+}
+
+.coced-text{
+    width:460px;
+}
+.coced-text h2{
+    text-align: left;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.coced-text p{
+    font-size: 18px;
+    font-family: 'Josefin Slab', serif;
+    line-height: 32px;
+    padding-top: 20px;
+    font-style: italic;
+}
+.coced-img{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.coced-img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
